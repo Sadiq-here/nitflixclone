@@ -49,3 +49,30 @@ table {
 	border-spacing: 0;
 }
 
+/* ======Layout====== */
+*{
+	box-sizing: border-box;
+}
+
+header{
+    height: 700px;
+    border-bottom: 4px solid rgba(66, 66, 66, 0.670);
+    clear: both;
+}
+
+footer{
+	height: 600px;
+	border-top: 4px solid rgba(66, 66, 66, 0.670);
+    clear: both;
+}
+
+section{
+    height: 600px;
+    border-top: 4px solid rgba(66, 66, 66, 0.670);
+    border-bottom: 4px solid rgba(66, 66, 66, 0.670);
+    float: left;
+    width: 100%;
+}
+.frequent-quest{
+	height: 900px;
+}
